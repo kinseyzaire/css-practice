@@ -1,0 +1,33 @@
+h1 { font-family: 'Sigmar One', cursive; color: #663300; }
+h2 { font-family: 'Sigmar One', cursive; color: #663300; }
+img { width: 100%; }
+.doctor_von_cuddles { border: solid #663300 10px; }
+
+
+
+/* -------- COLUMN LAYOUTS -------*/
+/* -- Column Sizes -- */
+
+.one_fourth   { width:21.25%; }
+.one_third    { width:29.333%; }
+.one_half     { width:45.5%; }
+.two_third    { width:61.666%; }
+.three_fourth { width:69.75%; }
+.one_column   { width:94%; }
+.full_column  { width:100%; }
+
+/* -- Column Margin & Float-- */
+.one_half,.one_third,.two_third,
+.three_fourth,.one_fourth,.one_column,
+.full_column {
+  margin-left:3%;
+  margin-top:1%;
+  float:left;
+}
+
+/* -- Clearfix -- */
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
